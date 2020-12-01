@@ -6,7 +6,7 @@ import pandas as pd
 #here we choose the style for the plot 
 matplotlib.style.use('ggplot')
 
-# Import as Dataframe
+# Import data
 df = pd.read_csv("covid_data.csv")
 
 #plotting total_cases
